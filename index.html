@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library System</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Library System</h1>
+    <div id="container">
+
+        <div id="input-container">
+            <h2>Library</h2>
+            <form id="inventory-form">
+                <input type="text" id="input-book" placeholder="Enter Book">
+                <button type="submit">Submit</button>
+                <button type="button" id="fetch-users">Load</button>
+            </form>
+        </div>
+
+        <div id="inventory-container">
+            <table>
+                <thead>
+                    <th scope="col">ID</th>
+                    <th scope="col">Books</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+                </thead>
+                <tbody id="inventory-list">
+                    <!-- <td>Wizard of my balls</td> -->
+                    <!-- <td>Available</td> -->
+                    <!-- <td> -->
+                    <!--     <button class="removeBtn">Remove</button> -->
+                    <!-- </td> -->
+                    <!-- js -->
+                </tbody>
+            </table>
+            <p id="no-item" style="display: block">There are no items in the table</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

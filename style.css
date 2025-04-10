@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ebdbb2;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #ebdbb2;
+    margin-bottom: 10px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #282828;
+}
+
+input {
+    flex: 1;
+    background-color: transparent;
+    color: #ebdbb2;
+    border: 2px solid #ebdbb2;
+    padding: 5px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #ebdbb2;
+    color: #ebdbb2;
+    padding: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 10%;
+    color: #ebdbb2;
+    padding: 10px;
+    text-align: center;
+}
+
+th[scope="col"] {
+    background-color: #3c3836;
+}
+
+#container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+#input-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #1d2021;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#inventory-form {
+    display: flex;
+    gap: 10px;
+}
+
+#inventory-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #1d2021;
+    padding: 10px;
+}
+
+#removeBtn {
+    background-color: white;
+}
+
+#no-item {
+    color: #ebdbb2;
+    text-align: center;
+    font-size: 15px;
+    margin: 30px 0 20px;
+}
