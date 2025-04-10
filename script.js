@@ -6,12 +6,12 @@ const noItem = document.getElementById("no-item"); // displays if there are no i
 let inventory = [];
 
 function fetchJSON() {
-    fetch("./assets/library.json")
+    fetch("./data/library.json")
         .then (response => {
             if (!response.ok) {
                 throw new Error("wadafak");
             }
-            return response.json()
+            return response.json();
         })
         .then (data => {
             inventory = data;
